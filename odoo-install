@@ -89,7 +89,7 @@ su - postgres -c "createuser -s $OE_USER" 2> /dev/null || true
 #--------------------------------------------------
 echo -e "\n---- Install packages ----"
 sudo apt-get install git python3-pip build-essential python3-dev libxslt-dev libzip-dev libldap2-dev libsasl2-dev node-less -y >> ./install_log
-
+sudo apt-get install python3 python-dev python3-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip -y >> ./install_log
 
 
 
